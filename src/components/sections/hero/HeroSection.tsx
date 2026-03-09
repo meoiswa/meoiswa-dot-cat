@@ -43,7 +43,7 @@ export function HeroSection() {
           <div className='flex justify-center'>
             <div className='relative shrink-0 overflow-hidden rounded-2xl shadow-2xl lg:h-80 lg:w-80 xl:h-[420px] xl:w-[420px]'>
               <img
-                src='/images/avatar.png'
+                src='images/avatar.png'
                 alt='Avatar of Meoiswa'
                 width={320}
                 height={320}
