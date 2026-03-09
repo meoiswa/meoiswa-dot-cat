@@ -13,7 +13,7 @@ export default function App() {
 
   return (
     <LanguageProvider>
-      <div className='flex h-screen flex-col overflow-hidden'>
+      <div className='flex h-screen flex-col overflow-hidden cursor-default'>
         <Navbar />
         <main className='flex-grow overflow-y-auto'>
           <div className='flex flex-col h-full'>

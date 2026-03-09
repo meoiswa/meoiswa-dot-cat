@@ -98,7 +98,7 @@ export function ProjectsSection() {
           {/* "View all" card */}
           <Card className="flex flex-col overflow-hidden shadow-lg transition-all duration-300 hover:shadow-2xl bg-card text-card-foreground">
             <CardHeader>
-              <CardTitle className="font-headline text-xl text-primary">{t.projects_explore_title}</CardTitle>
+              <CardTitle className="font-headline text-xl text-secondary-foreground">{t.projects_explore_title}</CardTitle>
               <CardDescription className="text-card-foreground/70 min-h-[40px] mt-2">
                 {t.projects_explore_body}
               </CardDescription>
