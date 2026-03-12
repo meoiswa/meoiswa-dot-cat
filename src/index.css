@@ -94,3 +94,13 @@
     background: hsl(var(--accent));
   }
 }
+
+.patreon {
+  background-color: currentColor;
+  mask: url('/images/PATREON_SYMBOL_1_WHITE_RGB.svg') no-repeat center / contain;
+}
+
+.kofi {
+  background-color: currentColor;
+  mask: url('/images/cuplogo.svg') no-repeat center / contain;
+}

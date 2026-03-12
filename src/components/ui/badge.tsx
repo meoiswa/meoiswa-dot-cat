@@ -8,6 +8,12 @@ export const BADGE_VARIANTS = {
     'bg-accent/10 text-accent',
   secondary:
     'bg-secondary text-secondary-foreground',
+  outline:
+    'border border-primary/90 bg-background text-primary/90',
+  outlineAccent:
+    'border border-accent/90 bg-background text-accent/90',
+  outlineSecondary:
+    'border border-secondary-foreground bg-background text-secondary-foreground',
   destructive:
     'bg-destructive/10 text-destructive',
 } as const;
